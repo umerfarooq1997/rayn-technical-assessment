@@ -14,11 +14,11 @@ const HomeHeader = () =>
         </p>
 
         <div className="flex gap-2 justify-center mt-12">
-          <button className="flex gap-3 items-center font-medium h-[60px] px-[30px] text-lg rounded-lg text-primary border border-primary bg-white" type="button">
-            <Image alt="Play Icon" src={play} />
+          <button className="flex gap-3 items-center font-medium h-[60px] px-[30px] text-lg rounded-lg text-primary border border-primary bg-white hover:opacity-90 transition-all group" type="button">
+            <Image alt="Play Icon" className="group-hover:-rotate-[360deg] transition-all duration-300" src={play} />
             {'Demo'}
           </button>
-          <button className="font-medium h-[60px] text-lg px-7 rounded-lg bg-primary text-white" type="button">{'Sign up'}</button>
+          <button className="font-medium h-[60px] text-lg px-7 rounded-lg bg-primary text-white hover:opacity-90 transition-all duration-300" type="button">{'Sign up'}</button>
         </div>
       </div>
 
