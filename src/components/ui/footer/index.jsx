@@ -8,8 +8,13 @@ const Footer = () => {
 
   const onSubmit = () => {
     // API Call here
-    // eslint-disable-next-line no-console
-    if (email) console.log(email);
+    if (email) {
+      // eslint-disable-next-line no-console
+      console.log(email);
+    }
+    else {
+      // validation Message
+    }
   };
 
   return (
