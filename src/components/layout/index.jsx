@@ -4,7 +4,7 @@ import Navbar from '../ui/navbar';
 const Layout = ({ children }) =>
   <>
     <div className="border-b border-secondary">
-      <div className="container">
+      <div className="container ">
         <Navbar />
       </div>
     </div>
@@ -12,7 +12,7 @@ const Layout = ({ children }) =>
     {children}
 
     <div className="bg-[#1D2939]">
-      <div className="container">
+      <div className="container px-8">
         <Footer />
       </div>
     </div>
